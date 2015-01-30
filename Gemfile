@@ -43,5 +43,12 @@ group :development, :test do
   gem 'spring'
 end
 
+gem 'momentjs-rails', '~> 2.9',  :github => 'derekprior/momentjs-rails'
+gem 'simple_form', '~> 3.1'
+
+gem 'datetimepicker-rails', :github => 'zpaulovics/datetimepicker-rails',
+    :branch => 'feature-upgrade2version-4', :submodules => true
+
+
 
 

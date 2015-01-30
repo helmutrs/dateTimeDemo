@@ -1,3 +1,18 @@
+GIT
+  remote: git://github.com/derekprior/momentjs-rails.git
+  revision: 4b1b0a64bca3eb5ab8741eb4a4d2c1c5a6fdf04b
+  specs:
+    momentjs-rails (2.9.0)
+      railties (>= 3.1)
+
+GIT
+  remote: git://github.com/zpaulovics/datetimepicker-rails.git
+  revision: 25aa12b54c7be0b526e68d9efef8818dc7e249b0
+  branch: feature-upgrade2version-4
+  submodules: true
+  specs:
+    datetimepicker-rails (3.1.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -117,6 +132,9 @@ GEM
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
+    simple_form (3.1.0)
+      actionpack (~> 4.0)
+      activemodel (~> 4.0)
     slop (3.6.0)
     spring (1.2.0)
     sprockets (2.12.3)
@@ -151,11 +169,14 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
+  datetimepicker-rails!
   jbuilder (~> 2.0)
   jquery-rails
+  momentjs-rails (~> 2.9)!
   rails (= 4.2.0)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
+  simple_form (~> 3.1)
   spring
   sqlite3
   turbolinks
