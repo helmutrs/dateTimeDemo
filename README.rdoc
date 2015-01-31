@@ -1,23 +1,18 @@
 == README
 
-* Ruby version: ruby-2.2.0, Rails version: rails4.2
+## Description of the appliacation
 
-* System dependencies
+This is demo application to demostrate usage of the datetimepicer-rails gem. It is for the versions 4.0.0+ of the gem.
 
-* Configuration
+## Ruby on Rails
 
-* Database creation
+ - Ruby version: ruby-2.2.0,
+ - Rails version: rails4.2
 
-* Database initialization
+## System dependencies
 
-* How to run the test suite
+ - datetimepicer-rails (versions 4.0.0+)
+ - bootstrap-datetimepicker (version 4.0.0)
+ - Simpleform 3.1+
+ - Momentjs-rails 2.9+
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
