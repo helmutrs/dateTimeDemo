@@ -7,11 +7,11 @@ GIT
 
 GIT
   remote: git://github.com/zpaulovics/datetimepicker-rails.git
-  revision: 25aa12b54c7be0b526e68d9efef8818dc7e249b0
-  branch: feature-upgrade2version-4
+  revision: da676ca660d3177256ef8efc0cb4dbcb493e8192
+  branch: eonasdan
   submodules: true
   specs:
-    datetimepicker-rails (3.1.1)
+    datetimepicker-rails (4.0.0.RC1)
 
 GEM
   remote: https://rubygems.org/
@@ -52,8 +52,14 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     arel (6.0.0)
+    autoprefixer-rails (5.1.0)
+      execjs
+      json
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
+    bootstrap-sass (3.3.3)
+      autoprefixer-rails (>= 5.0.0.1)
+      sass (>= 3.2.19)
     builder (3.2.2)
     byebug (3.5.1)
       columnize (~> 0.8)
@@ -167,9 +173,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass (~> 3.3.3)
   byebug
   coffee-rails (~> 4.1.0)
-  datetimepicker-rails!
+  datetimepicker-rails (= 4.0.0.RC1)!
   jbuilder (~> 2.0)
   jquery-rails
   momentjs-rails (~> 2.9)!
