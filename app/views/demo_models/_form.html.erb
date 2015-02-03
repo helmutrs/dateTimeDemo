@@ -1,7 +1,10 @@
 <%- model_class = DemoModel -%>
 
 <%= simple_form_for @demo_model, wrapper: :horizontal_form, :html => { :class => 'form-horizontal' } do |f| %>
-    <%= f.error_notification %>
+
+    <div class="row col-md-offset-1 col-md-5 bg-danger">
+        <%= f.error_notification %>
+    </div>
 
     <%= render('fields', f: f, demo_model: @demo_model, disabled: disabled)  %>
 
