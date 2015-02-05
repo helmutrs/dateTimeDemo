@@ -45,6 +45,7 @@ class DemoModelsController < ApplicationController
         format.html { redirect_to @demo_model, notice: 'Demo model was successfully updated.' }
         format.json { render :show, status: :ok, location: @demo_model }
       else
+        flash[:alert] = 'Validation error, could not update the model.'
         format.html { render :edit }
         format.json { render json: @demo_model.errors, status: :unprocessable_entity }
       end
