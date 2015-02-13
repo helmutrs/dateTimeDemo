@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150130131000) do
+ActiveRecord::Schema.define(version: 20150206131622) do
 
   create_table "demo_models", force: :cascade do |t|
     t.string   "name"
@@ -19,8 +19,10 @@ ActiveRecord::Schema.define(version: 20150130131000) do
     t.datetime "dateTime_field"
     t.time     "time_field"
     t.text     "comment"
-    t.datetime "created_at",     null: false
-    t.datetime "updated_at",     null: false
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
+    t.datetime "publish_date"
+    t.datetime "expiration_date"
   end
 
 end
