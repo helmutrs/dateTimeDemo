@@ -49,7 +49,7 @@ gem 'momentjs-rails', '~> 2.9',  :github => 'derekprior/momentjs-rails'
 gem 'simple_form', '~> 3.1'
 
 gem 'datetimepicker-rails', '~> 4.3', :github => 'zpaulovics/datetimepicker-rails',
-    :branch => 'master', :submodules => true
+    :branch => 'eonasdan', :submodules => true
 
 
 

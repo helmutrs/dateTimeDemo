@@ -7,11 +7,11 @@ GIT
 
 GIT
   remote: git://github.com/zpaulovics/datetimepicker-rails.git
-  revision: 2bf670e64b5a8de19193f23fa6fe9239a8351427
-  branch: master
+  revision: 4bac364996136c16ba2a600750cfa600d0096173
+  branch: eonasdan
   submodules: true
   specs:
-    datetimepicker-rails (4.3.5)
+    datetimepicker-rails (4.6.10)
 
 GEM
   remote: https://rubygems.org/
