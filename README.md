@@ -12,8 +12,8 @@ This is a demo application to demonstrate the usage of the datetimepicker-rails 
 
 ## System dependencies
 
- - datetimepicker-rails (versions 4.0.0+)
- - bootstrap-datetimepicker (version 4.0.0)
+ - datetimepicker-rails (versions 4.7.15)
+ - bootstrap-datetimepicker (version 4.7.15)
  - Simpleform 3.1+
  - Momentjs-rails 2.9+
 
