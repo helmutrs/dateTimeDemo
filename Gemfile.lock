@@ -7,11 +7,20 @@ GIT
 
 GIT
   remote: git://github.com/zpaulovics/datetimepicker-rails.git
+<<<<<<< Updated upstream
   revision: fd9624e9db3f2642327c3b11cff0224afb206626
   branch: master
   submodules: true
   specs:
     datetimepicker-rails (4.0.0)
+=======
+  revision: 586d0c333d656980aa66254b4a05da3f20c83126
+  branch: master
+  submodules: true
+  specs:
+    datetimepicker-rails (4.7.15)
+      momentjs-rails (>= 2.9.0)
+>>>>>>> Stashed changes
 
 GEM
   remote: https://rubygems.org/
@@ -176,7 +185,11 @@ DEPENDENCIES
   bootstrap-sass (~> 3.3.3)
   byebug
   coffee-rails (~> 4.1.0)
+<<<<<<< Updated upstream
   datetimepicker-rails (= 4.0.0)!
+=======
+  datetimepicker-rails (~> 4.7.15)!
+>>>>>>> Stashed changes
   jbuilder (~> 2.0)
   jquery-rails
   momentjs-rails (~> 2.9)!
